@@ -1,6 +1,7 @@
 import React from 'react'
 import './nav.css'
 import {AiOutlineHome, AiOutlineUser, AiOutlineBook, AiOutlineMessage} from 'react-icons/ai'
+import {MdSchool} from 'react-icons/md'
 import {RiServiceLine} from 'react-icons/ri'
 import { useState } from 'react'
 
@@ -20,10 +21,14 @@ const Nav = () => {
         onClick={() => setActiveNav('#experience')} 
         className={activeNav === '#experience' ? 'active' : ''}>
       <AiOutlineBook/></a>
-      <a href="#services"
-        onClick={() => setActiveNav('#services')} 
-        className={activeNav === '#services' ? 'active' : ''}>
+      <a href="#portfolio"
+        onClick={() => setActiveNav('#portfolio')} 
+        className={activeNav === '#portfolio' ? 'active' : ''}>
       <RiServiceLine/></a>
+      <a href="#backgrounds"
+        onClick={() => setActiveNav('#backgrounds')} 
+        className={activeNav === '#backgrounds' ? 'active' : ''}>
+      <MdSchool/></a>
       <a href="#contact"
         onClick={() => setActiveNav('#contact')} 
         className={activeNav === '#contact' ? 'active' : ''}>

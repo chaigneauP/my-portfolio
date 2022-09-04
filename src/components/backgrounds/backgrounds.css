@@ -1,9 +1,9 @@
-.container.testimonials__container {
+.container.backgrounds__container {
     width: 40%;
     padding-bottom: 4rem;
 }
 
-.client__avatar {
+.background__avatar {
     width: 4rem;
     aspect-ratio: 1/1;
     overflow: hidden;
@@ -12,7 +12,7 @@
     border: 0.4rem solid var(--color-primary-variant);
 }
 
-.testimonial {
+.background {
     background: var(--color-bg-variant);
     text-align: center;
     padding: 2rem;
@@ -20,7 +20,7 @@
     user-select: none;
 }
 
-.client__review {
+.background__review {
     color: var(--color-light);
     font-weight: 300;
     display: block;
@@ -34,18 +34,18 @@
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ===================*/
 @media  screen and (max-width: 1024px) {
-    .container.testimonials__container {
+    .container.backgrounds__container {
         width: 60%;
     }
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ===================*/
 @media  screen and (max-width: 600px) {
-    .container.testimonials__container {
+    .container.backgrounds__container {
         width: var(--container-width-ms);
     }
 
-    .client__review {
+    .background__review {
         width: var(--container-width-ms);
     }
 }

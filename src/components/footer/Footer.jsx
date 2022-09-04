@@ -11,12 +11,12 @@ const Footer = () => {
       <a href="#" className='footer__logo'>PAUL CHAIGNEAU - PORTFOLIO</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
         <li><a href="#about">A propos</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#services">Services</a></li>
+        <li><a href="#experience">Expérience</a></li>
+        {/* <li><a href="#services">Services</a></li> */}
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#testimonials">Témoignages</a></li>
+        <li><a href="#backgrounds">Mon parcours</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
 

@@ -2,8 +2,7 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/me-about.jpg'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import {MdSchool, MdWork} from 'react-icons/md'
 
 const about = () => {
   return (
@@ -22,28 +21,24 @@ const about = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>+3 ans d'entreprise</small>
+              <h5>Expérience</h5>
+              <small>3 ans d'expérience en alternance</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <MdSchool className="about__icon" />
+              <h5>Diplôme</h5>
+              <small>Master 2 Expert Informatique et Systèmes d'Information</small>
             </article>
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ projects</small>
+              <MdWork className="about__icon" />
+              <h5>Situation professionnelle</h5>
+              <small>Développeur chez ASI</small>
             </article>
           </div>
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Je m'appelle Paul Chaigneau, développeur à plein temps je travail pour une société su secteur numérique. 
+          Récement sorti d'école je réalise des petits projets personnels afin d'élargir mes compétences et de mettre mes nouvelles connaissances en pratique sur mes travaux.
+          Ce que j'aime le plus ? Découvrir de nouvelles choses, essayer, innover et m'épanouir sur des sujets qui me tiennent à coeur.
         </p>
 
         <a href="#contact" className='btn btn-primary'> Discutons !</a>
